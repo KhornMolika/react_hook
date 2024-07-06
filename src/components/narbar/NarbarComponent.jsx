@@ -44,7 +44,7 @@ export function NavbarComponent() {
 
   console.log(navbarList);
   return (
-    <Navbar fluid rounded className="max-w-screen-xl mx-auto">
+    <Navbar fluid rounded className="max-w-screen-2xl mx-auto px-10">
       <Navbar.Brand as={Link} to='/'>
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           FD2

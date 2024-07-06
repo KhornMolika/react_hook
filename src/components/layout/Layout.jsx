@@ -1,5 +1,5 @@
 import React from "react";
-import { NavbarComponent } from "../narbar/NarbarComponent"; 
+import { NavbarComponent } from "../narbar/NarbarComponent";
 import { Outlet } from "react-router-dom";
 
 export default function Layout() {
@@ -8,7 +8,7 @@ export default function Layout() {
       <header>
         <NavbarComponent />
       </header>
-      <main className="max-w-screen-lg mx-auto">
+      <main className="max-w-screen-2xl mx-auto bg-gray-200">
         <Outlet />
       </main>
     </>
