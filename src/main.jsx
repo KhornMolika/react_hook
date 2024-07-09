@@ -4,10 +4,10 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Product from "./page/products/Product.jsx";
-import AboutUs from "./page/about-us/AboutUs.jsx";
 import Layout from "./components/layout/Layout.jsx"
 import ProductDetail from "./page/product-details/ProductDetail.jsx";
 import NotFoundPage from "./components/NotFoundPage.jsx";
+import News from "./page/news/News.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
         element: <Product />,
       },
       {
-        path: "/about-us",
-        element: <AboutUs />,
+        path: "/news",
+        element: <News />,
       },
       {
         path: "/product-details",

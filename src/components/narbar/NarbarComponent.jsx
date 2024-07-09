@@ -16,8 +16,8 @@ export function NavbarComponent() {
       active: false
     },
     {
-      name: "About us",
-      path: "/about-us",
+      name: "News",
+      path: "/news",
       active: false
     }
   ]);
@@ -42,9 +42,9 @@ export function NavbarComponent() {
     });
   };
 
-  console.log(navbarList);
+//   console.log(navbarList);
   return (
-    <Navbar fluid rounded className="max-w-screen-2xl mx-auto px-10">
+    <Navbar className="fluid rounded max-w-screen-2xl mx-auto px-10">
       <Navbar.Brand as={Link} to='/'>
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           FD2
